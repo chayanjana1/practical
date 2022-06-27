@@ -1,14 +1,9 @@
-class Ifelseladder {
+class Simpleif {
 	public static void main(String[] args){
-String name = "Riya";
-if(name == "Meena"){
-System.out.println("name is meena");
-}else if (name == "Neha"){
-System.out.println("name is neha");
-}else if(name == "Amit"){
-System.out.println("name is amit");
-}else{
-System.out.println(name);
+int x = 5;
+int y = 3;
+	if(x+y < 10) {
+		System.out.println("x + y is less than 10")
 }
 }
 }
